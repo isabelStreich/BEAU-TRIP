@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr-CA">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/logo.png" type="image/jpg">
+    <link rel="stylesheet" href="css/beauTravel-css.css" />
+    <title>Contact</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <!--logo et nom de la compagnie-->
+            <div id="logo">
+                <img src="image/logo1.png" class="logo" alt="logo">
+                <h1>Beau Travel</h1>
+            </div>
+            <div id="search">
+                <form>
+                    <div>
+                        <input type="search" name="search" placeholder="Entrez un distination...">
+                    </div>
+                    <div>
+                        <input type="submit" name="submitButton" id="submitButton" value="Aller">
+                    </div>
+                </form>
+            </div>
+        </header>
+        <!--Menu/nav-->
+        <nav id="nav-desktop">
+            <ul>
+                <li><a class="active" href="accueil.html"> ACCUEIL </a></li>
+                <li><a href="catalogue.html"> CATALOGUE </a></li>
+                <li><a href="produit.html"> PRODUIT </a></li>
+                <li><a href="contact.html"> CONTACTEZ-NOUS </a></li>
+            </ul>
+        </nav>
+        <!--Debut Formulaire-->
+        <form class="formContact">
+            <div class="bienvenue">
+                <h2>Merci de visiter notre site!</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id quam vehicula, rutrum nulla et,
+                    congue
+                    neque.
+                    Quisque ac pretium nibh. Morbi vestibulum feugiat nisi, non molestie sem sodales lacinia. Mauris
+                    vitae
+                    congue augue, ac fringilla quam.</p>
+            </div>
+            <fieldset>
+                <h2>Nous contactons</h2>
+                <p>S'il vous plaît remplir ce formulaire pour se contacter</p>
+                <!--Nom-->
+                <div>
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom" placeholder="Nom" required="required" maxlength="50" autofocus />
+                </div>
+                <!--Prenom-->
+                <div>
+                    <label for="prenom">Prénom</label>
+                    <input type="text" id="prenom" name="prenom" placeholder="Prénom" required="required"
+                        maxlength="50" />
+                </div>
+                <!--Telephone-->
+                <div>
+                    <label for="telephone">Téléphone</label>
+                    <input type="tel" id="telephone" name="telephone" placeholder="514-888-9999"
+                        pattern="^\(?\d{3}\)?(-| )?\d{3}(-| )?\d{4}$" required="required" />
+                </div>
+                <!--courriel-->
+                <div>
+                    <label for="courriel">Courriel</label>
+                    <input type="email" id="courriel" name="courriel" placeholder="courriel@example.com"
+                        required="required" maxlength="100" />
+                </div>
+                <!--Age-->
+                <div>
+                    <label for="age">Votre âge</label>
+                    <input type="number" id="age" name="age" min="18" max="150" required="required" placeholder="Âge" />
+                </div>
+                <!--date-->
+                <div>
+                    <label for="dateVoyage"> Date Voyage:</label>
+                    <input type="date" id="dateVoyage" name="dateVoyage">
+                </div>
+
+                <!--Radio button-->
+                <div>
+                    <label>Avez-vous une : </label>
+                    <!-- <label class="container">Custom Radio Buttons</label> -->
+                    <label class="container">Reservation
+                        <input type="radio" checked="checked" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Consultation
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Autre
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <!--DataList-->
+                <div>
+                    <label>Pour quel departament?</label>
+                    <input list="departament" name="departament" placeholder="Choisissez une option">
+                    <datalist id="departament">
+                        <option value="Administration">
+                        <option value="Ventes locale">
+                        <option value="Ventes International">
+                        <option value="Direction">
+                    </datalist>
+                </div>
+                <!--text area-->
+                <div>
+                    <textarea rows="10" cols="61" name="comment">Écrivez votre message  ici</textarea>
+                </div>
+                <!--Soumetre-->
+                <!--Soumetre-->
+                <div>
+                    <input type="submit" value="Soumettre" />
+                </div>
+            </fieldset>
+        </form>
+        <section class="mapHoraire">
+            <article id="map">
+                <!--Google maps-->
+                <div>
+                    <h2> Venez nous rencontrer! </h2>
+                    <h3>Notre Adresse </h3>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.226707368422!2d-73.55348574893196!3d45.525643237259985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc918e0c061b07f%3A0x647a6b6d7cb681a7!2sISI%2C%20L&#39;institut%20Sup%C3%A9rieur%20d&#39;Informatique!5e0!3m2!1sen!2sca!4v1582119157988!5m2!1sen!2sca"
+                        width="360" height="300" style="border:0" allowfullscreen=""></iframe>
+                </div>
+            </article>
+            <article>
+                <!--Horaires-->
+                <h3>Horaires</h3>
+                <ul>
+                    <li> Lun.-Vend.: 9 AM - 9PM</li>
+                    <li> Samedi: 9 AM - 6PM</li>
+                    <li> Dimanche: 10 AM - 5PM</li>
+                </ul>
+            </article>
+            <article>
+                <h3>Infolettre</h3>
+                <div>
+                    <label>Soyez les premiers informes de nos nouveatés</label>
+                    <input type="email" name="email" placeholder="courriel@example.com">
+                    <label class="container2">Oui, Je desire recevoir periodiquement de l'information sur les nouveaux
+                        produits
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark2"></span>
+                    </label>
+                    <input type="submit" value="Soumettre" name="Submit">
+                </div>
+            </article>
+        </section>
+        <!--DEBUT FOOTER-->
+        <footer>
+            <div class="container-footer">
+                <!--premier colone-->
+                <div class="footer-col">
+                    <h3>Beau Travel</h3>
+                    <p>2100 boul. de Maisonneuve Est</p>
+                    <p>étage #4</p>
+                    <p>Montréal, Québec</p>
+                    <p>H2K 4S1</p>
+                </div>
+                <!--deuxieme colone-->
+                <div class="fotter-col">
+                    <h3>A propos de nous</h3>
+                </div>
+                <!--Troisieme colone-->
+                <div class="fotter-col">
+                    <h3>Contactez-Nous</h3>
+                    <p>Tel: +1 514-123-4567</p>
+                    <p>Email: beauTravel@gmail.com</p>
+                    <p>Suivez nous :</p>
+                    <a href="https://www.instagram.com">
+                        <img src="image/instagram.png" alt="Instagramm" style="width:2em;">
+                    </a> &nbsp;
+                    <a href="https://www.facebook.com/">
+                        <img src="image/facebook.png" alt="Facebook" style="width:2em;">
+                    </a> &nbsp;
+                    <a href="https://twitter.com/">
+                        <img src="image/twitter.png" alt="Twitter" style="width:2em;">
+                    </a> &nbsp;
+                    <a href="https://www.youtube.com/">
+                        <img src="image/youtube.png" alt="Youtube" style="width:2em;">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

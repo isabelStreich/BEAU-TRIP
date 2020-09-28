@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr-CA">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/logo.png" type="image/jpg">
+    <link rel="stylesheet" href="css/beauTravel-css.css" />
+    <title>Accueil</title>
+    <style>
+        .logo {
+            width: 13rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!--logo et nom de la compagnie-->
+        <div>
+            <img src="image/logo.png" class="logo" alt="logo">
+            <h1 class="beauTravel">Beau Travel</h1>
+            <input type="search" name="search" placeholder="Rechercher un distination...">
+            <input type="submit" name="submitButton" id="submitButton" value="Aller">
+        </div>
+        <!--Menu/nav-->
+        <nav>
+            <ul>
+                <li><a class="active" href="accueil.html"> ACCUEIL </a></li>
+                <li><a href="catalogue.html"> CATALOGUE </a></li>
+                <li><a href="produit.html"> PRODUIT </a></li>
+                <li><a href="contact.html"> CONTACTEZ-NOUS </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--CAROUSEL-->
+        <div>
+            <p>
+                J'aime voyager, découvrir, déambuler dans des villes sans but... </p>
+            <div id="slider">
+                <div id="slider-container">
+                    <img src="image/carosel1.jpg" alt="carousel-01" />
+                    <img src="image/carosel2.jpg" alt="carousel-02" />
+                    <img src="image/carosel3.jpg" alt="carousel-03" />
+                    <img src="image/carosel4.jpg" alt="carousel-04" />
+                    <img src="image/carosel5.jpg" alt="carousel-05" />
+                </div>
+            </div>
+            <p> Ça y est, tu y es presque, le grand jour approche à grands pas !</p>
+            <p>Dans quelques temps, tu seras à des milliers de kilomètres pour te lancer dans cette belle aventure que
+                tu as choisi de vivre.</p>
+            <p>Je ne pouvais pas te laisser partir sans t’écrire cette lettre pour te souhaiter un bon voyage.</p>
+            <p>Je te le souhaite rempli d’aventures, de surprises et de découvertes.</p>
+            <p>De repos aussi bien sûr, de profiter de moments de farniente pour te relaxer et relâcher la pression.</p>
+            <video controls muted class="video" poster="image/miami450x299-2.jpg">
+                <source src="video/video.mp4" type="video/mp4" />
+                <object type="application/x-shockwave-flash" class="video">
+                    <param name="movie" value="video/video.mp4" />
+                    <param name="wmode" value="transparent" />
+                </object>
+            </video>
+        </div>
+        <aside>
+            <a href="catalogue.html">
+                <h2>Colizey</h2>
+            </a>
+            <p>
+                Certains n'aiment pas sortir de leur quotidien...
+                <img src="image/rome450x299-2.jpg" class="slideFoto" alt="promo-01" />
+            </p>
+            <a href="catalogue.html">
+                <h2>Hawaï</h2>
+            </a>
+            <p>
+                Avoir le goût des voyages n'est pas obligatoire!
+                <img src="image/varadero450x299-1.jpg" class="slideFoto" alt="promo-02" />
+            </p>
+            <a href="catalogue.html">
+                <h2>Niagara Fall</h2>
+            </a>
+            <p>
+                Et quel bonheur de rentrer chez soi....
+                <img src="image/niagaraFalls450x299-4.jpg" class="slideFoto" alt="promo-03" />
+            </p>
+            <a href="catalogue.html">
+                <h2>Maiami</h2>
+            </a>
+            <p>
+                J'aime aussi les souvenirs de voyage...
+                <img src="image/cancun450x299-3.jpg" class="slideFoto" alt="promo-04" />
+            </p>
+        </aside>
+    </main>
+    <!--DEBUT FOOTER-->
+    <footer>
+        <div class="container-footer">
+            <!--premier colone-->
+            <div class="footer-col">
+                <h3>Beau Travel</h3>
+                <p>2100 boul. de Maisonneuve Est</p>
+                <p>étage #4</p>
+                <p>Montréal, Québec</p>
+                <p>H2K 4S1</p>
+            </div>
+            <!--deuxieme colone-->
+            <div class="fotter-col">
+                <h3>A propos de nous</h3>
+            </div>
+            <!--Troisieme colone-->
+            <div class="fotter-col">
+                <h3>Contactez-Nous</h3>
+                <p>Tel: +1 514-123-4567</p>
+                <p>Email: beauTravel@gmail.com</p>
+                <p>Suivez nous :</p>
+                <a href="https://www.instagram.com">
+                    <img src="image/instagram.png" alt="Instagramm" style="width:2em;">
+                </a> &nbsp;
+                <a href="https://www.facebook.com/">
+                    <img src="image/facebook.png" alt="Facebook" style="width:2em;">
+                </a> &nbsp;
+                <a href="https://twitter.com/">
+                    <img src="image/twitter.png" alt="Twitter" style="width:2em;">
+                </a> &nbsp;
+                <a href="https://www.youtube.com/">
+                    <img src="image/youtube.png" alt="Youtube" style="width:2em;">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

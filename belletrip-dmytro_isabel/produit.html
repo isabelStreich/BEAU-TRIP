@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr-CA">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/logo.png" type="image/jpg">
+    <link rel="stylesheet" href="css/beauTravel-css.css" />
+    <title>Produit</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <!--logo et nom de la compagnie-->
+            <div id="logo">
+                <img src="image/logo1.png" class="logo" alt="logo">
+                <h1>Beau Travel</h1>
+            </div>
+            <div id="search">
+                <form>
+                    <div>
+                        <input type="search" name="search" placeholder="Entrez un distination...">
+                    </div>
+                    <div>
+                        <input type="submit" name="submitButton" id="submitButton" value="Aller">
+                    </div>
+                </form>
+            </div>
+        </header>
+        <!--Menu/nav-->
+        <nav id="nav-desktop">
+            <ul>
+                <li><a class="active" href="accueil.html"> ACCUEIL </a></li>
+                <li><a href="catalogue.html"> CATALOGUE </a></li>
+                <li><a href="produit.html"> PRODUIT </a></li>
+                <li><a href="contact.html"> CONTACTEZ-NOUS </a></li>
+            </ul>
+        </nav>
+        <main>
+            <!--VIDEO-->
+            <div>
+                <h2> Bienvenue au Machu Picchu </h2>
+                <video controls muted class="video" poster="image/MachuPicchu.jpg">
+                    <source src="video/machu.mp4" type="video/mp4" />
+                    <object type="application/x-shockwave-flash" class="video">
+                        <param name="movie" value="video/machu.mp4" />
+                        <param name="wmode" value="transparent" />
+                    </object>
+                </video>
+            </div>
+            <!--Accordion-->
+            <aside id="aside_prod">
+                <div class="wrap-collabsible">
+                    <input id="collapsible1" class="toggle" type="checkbox">
+                    <label for="collapsible1" class="lbl-toggle">Description du voyage</label>
+                    <div class="collapsible-content">
+                        <div class="content-inner">
+                            <p>
+                                Le Machu Picchu est une citadelle inca installée en hauteur, dans les montagnes des
+                                Andes,
+                                au Pérou, au-dessus de la vallée de la rivière Urubamba. Construite au XVe siècle et
+                                abandonnée par la suite, elle est réputée pour ses murs en pierres sèches dont la
+                                conception
+                                sophistiquée associe des blocs immenses sans mortier, le tout formant des bâtiments
+                                fascinants qui tirent parti des alignements astronomiques et offrent une vue
+                                panoramique. La
+                                raison précise de sa création demeure un mystère!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrap-collabsible">
+                    <input id="collapsible2" class="toggle" type="checkbox">
+                    <label for="collapsible2" class="lbl-toggle">Comment gérer les horaires?</label>
+                    <div class="collapsible-content">
+                        <div class="content-inner">
+                            <p>
+                                Comment gérer les horaires dans la ville Machu Picchu?
+                            </p>
+                            <p>
+                                Si vous entrez tôt le matin (à partir de 6h)
+                            </p>
+                            <p>
+                                6h à 7h – Entrez dans le Machu Picchu et appréciez le lever du soleil
+                            </p>
+                            <p>
+                                7h à 9h – Visite de la ville inca accompagnée d’un guide
+                            </p>
+                            <p>
+                                9h à 10h – Visitez le site Inca par vous-même et admirez le paysage
+                            </p>
+                            <p>
+                                S’ils entrent dans l’après-midi (à partir de 13h)
+                            </p>
+                            <p>
+                                13h à 15h – Entrez dans le Machu Picchu et prenez la visite accompagnée d’un guide.
+                            </p>
+                            <p>
+                                15h à 17h – Visitez le site Inca par vous-même et profitez du coucher de soleil.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrap-collabsible">
+                    <input id="collapsible3" class="toggle" type="checkbox">
+                    <label for="collapsible3" class="lbl-toggle">Prix</label>
+                    <div class="collapsible-content">
+                        <div class="content-inner">
+                            <p>
+                                <img src="image/prix.jpg" class="logo" alt="prix" />
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </main>
+        <!--DEBUT FOOTER-->
+        <footer>
+            <div class="container-footer">
+                <!--premier colone-->
+                <div class="footer-col">
+                    <h3>Beau Travel</h3>
+                    <p>2100 boul. de Maisonneuve Est</p>
+                    <p>étage #4</p>
+                    <p>Montréal, Québec</p>
+                    <p>H2K 4S1</p>
+                </div>
+                <!--deuxieme colone-->
+                <div class="fotter-col">
+                    <h3>A propos de nous</h3>
+                </div>
+                <!--Troisieme colone-->
+                <div class="fotter-col">
+                    <h3>Contactez-Nous</h3>
+                    <p>Tel: +1 514-123-4567</p>
+                    <p>Email: beauTravel@gmail.com</p>
+                    <p>Suivez nous :</p>
+                    <a href="https://www.instagram.com">
+                        <img src="image/instagram.png" alt="Instagramm" style="width:2em;">
+                    </a> &nbsp;
+                    <a href="https://www.facebook.com/">
+                        <img src="image/facebook.png" alt="Facebook" style="width:2em;">
+                    </a> &nbsp;
+                    <a href="https://twitter.com/">
+                        <img src="image/twitter.png" alt="Twitter" style="width:2em;">
+                    </a> &nbsp;
+                    <a href="https://www.youtube.com/">
+                        <img src="image/youtube.png" alt="Youtube" style="width:2em;">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
